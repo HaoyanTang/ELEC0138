@@ -332,6 +332,6 @@ if __name__ == "__main__":
         "backend:app",
         host="127.0.0.1",
         port=8000,
-        ssl_keyfile="../secured/key.pem",
-        ssl_certfile="../secured/cert.pem"
+        ssl_keyfile="secured/key.pem",
+        ssl_certfile="secured/cert.pem"
     )
